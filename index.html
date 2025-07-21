@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceUp - Business Automation | Save Time & Scale</title>
+    <meta name="description" content="Transform your business with SpaceUp's expert automation solutions. Save time, reduce errors, and scale faster with our no-code tools. Get your free consultation today.">
+    <meta name="keywords" content="n8n automation, business automation, no-code workflows, business process automation, CRM automation, ecommerce automation, workflow automation, business efficiency">
+    <meta name="author" content="SpaceUp">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://spaceup.co.ke/">
+    <meta property="og:title" content="SpaceUp - Business Automation">
+    <meta property="og:description" content="Transform your business with expert automation solutions. Save time, reduce errors, and scale faster with our no-code tools.">
+    <meta property="og:image" content="/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://spaceup.co.ke/">
+    <meta property="twitter:title" content="SpaceUp - Business Automation">
+    <meta property="twitter:description" content="Transform your business with expert automation solutions. Save time, reduce errors, and scale faster with our no-code tools.">
+    <meta property="twitter:image" content="/twitter-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236e8efb'><path d='M4 14a1 1 0 01-.78-1.63l9.9-10.2a.5.5 0 01.86.46l-1.92 6.02A1 1 0 0013 10h7a1 1 0 01.78 1.63l-9.9 10.2a.5.5 0 01-.86-.46l1.92-6.02A1 1 0 0011 14z'/></svg>">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH6AkEBR0VqjX5JQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAJklEQVQ4y2P8//8/AzUBEwMVwaiBowaOGjhq4KiBowYyMZAJADWpA2l8cM4bAAAAAElFTkSuQmCC">
+    <link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH6AkEBR0VqjX5JQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAJklEQVQ4y2P8//8/AzUBEwMVwaiBowaOGjhq4KiBowYyMZAJADWpA2l8cM4bAAAAAElFTkSuQmCC">
+    <meta name="theme-color" content="#6e8efb">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SpaceUp",
+      "description": "Small business automation specialists using n8n and no-code tools",
+      "url": "https://spaceup.co.ke",
+      "logo": "https://spaceup.co.ke/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+254711512235",
+        "contactType": "Customer Service"
+      },
+      "sameAs": [
+        "https://linkedin.com/company/spaceup",
+        "https://twitter.com/spaceup"
+      ],
+      "offers": {
+        "@type": "Service",
+        "name": "Business Process Automation",
+        "description": "workflow automation and no-code solutions for small businesses"
+      }
+    }
+    </script>
+    
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://images.pexels.com">
+    <link rel="dns-prefetch" href="https://images.pexels.com">
+    
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#0891b2">
+    <meta name="msapplication-TileColor" content="#0891b2">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- Custom Scripts -->
+    <script src="js/email.js"></script>
+    
+  <link rel="stylesheet" crossorigin href="/spaceupagency.github.io/assets/index.BAtJTgG_.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <span class="logo-text">SpaceUp</span>
+                </div>
+                
+                <nav class="nav desktop-nav">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#process" class="nav-link">Process</a>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                
+                <div class="header-cta">
+                    <a href="#contact" class="btn btn-primary">Get Free Consultation</a>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i data-lucide="menu" class="menu-icon"></i>
+                    <i data-lucide="x" class="close-icon"></i>
+                </button>
+            </div>
+            
+            <div class="mobile-nav" id="mobileNav">
+                <nav class="mobile-nav-content">
+                    <a href="#about" class="mobile-nav-link">About</a>
+                    <a href="#services" class="mobile-nav-link">Services</a>
+                    <a href="#process" class="mobile-nav-link">Process</a>
+                    <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+                    <a href="#pricing" class="mobile-nav-link">Pricing</a>
+                  
+                    <a href="#contact" class="mobile-nav-link">Contact</a>
+                    <a href="#contact" class="btn btn-primary mobile-cta">Get Free Consultation</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="hero-bg-image"></div>
+            <div class="hero-gradient"></div>
+            <div class="floating-particles"></div>
+            <div class="interactive-glow" id="interactiveGlow"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-fade-up">
+                    <span class="title-line">Scale Your</span>
+                    <span class="title-line gradient-text">Business</span>
+                    <span class="title-line">with <span class="gradient-text-alt">Smart Automation</span></span>
+                </h1>
+                
+               
+                
+                <div class="hero-cta animate-fade-up delay-600">
+                    <a href="#contact" class="btn btn-primary btn-large">
+                        Get a Free Automation Consultation
+                        <i data-lucide="arrow-right" class="btn-icon"></i>
+                    </a>
+                    <button class="btn btn-secondary btn-large">
+                        <div class="play-icon">
+                            <i data-lucide="play"></i>
+                        </div>
+                        Watch Demo
+                    </button>
+                </div>
+                
+                <div class="hero-stats animate-fade-up delay-800">
+                    <div class="stat-item">
+                        <i data-lucide="check-circle" class="stat-icon"></i>
+                        <span>5+ Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <i data-lucide="users" class="stat-icon"></i>
+                        <span>100+ Businesses Automated</span>
+                    </div>
+                    <div class="stat-item">
+                        <i data-lucide="clock" class="stat-icon"></i>
+                        <span>Average 20 Hours/Week Saved</span>
+                    </div>
+                    <div class="stat-item">
+                        <i data-lucide="trending-up" class="stat-icon"></i>
+                        <span>300% Average ROI</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-dashboard animate-fade-up delay-1000">
+                <div class="dashboard-bg"></div>
+                <div class="dashboard-content">
+                    <div class="dashboard-grid">
+                        <div class="dashboard-item">
+                            <div class="dashboard-icon">
+                                <i data-lucide="clock"></i>
+                            </div>
+                            <h3>Save Time</h3>
+                            <p>Automate repetitive tasks and focus on what matters most</p>
+                        </div>
+                        <div class="dashboard-item">
+                            <div class="dashboard-icon">
+                                <i data-lucide="trending-up"></i>
+                            </div>
+                            <h3>Scale Faster</h3>
+                            <p>Streamline operations to handle more customers effortlessly</p>
+                        </div>
+                        <div class="dashboard-item">
+                            <div class="dashboard-icon">
+                                <i data-lucide="check-circle"></i>
+                            </div>
+                            <h3>Reduce Errors</h3>
+                            <p>Eliminate human error with consistent automated workflows</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="section-bg">
+            <div class="section-bg-image"></div>
+            <div class="section-gradient"></div>
+        </div>
+        
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-badge">
+                    <i data-lucide="award" class="badge-icon"></i>
+                    <span>Industry Leaders in Automation</span>
+                </div>
+                <h2 class="section-title">
+                    Empowering Businesses Through 
+                    <span class="gradient-text">Automation</span>
+                </h2>
+                <p class="section-description">
+                    At SpaceUp, we specialize in helping businesses unlock their potential through 
+                    intelligent automation using cutting-edge no-code tools.
+                </p>
+            </div>
+            
+            <div class="stats-grid animate-on-scroll delay-200">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <div class="stat-number" data-count="100">0</div>
+                    <div class="stat-label">Businesses Automated</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <div class="stat-number" data-count="500">0</div>
+                    <div class="stat-label">Workflows Created</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="shield"></i>
+                    </div>
+                    <div class="stat-number" data-count="99.9">0</div>
+                    <div class="stat-label">Uptime Guarantee</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="globe"></i>
+                    </div>
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support Available</div>
+                </div>
+            </div>
+            
+            <div class="about-grid animate-on-scroll delay-400">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i data-lucide="target"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To democratize business automation for small businesses, making powerful tools accessible and affordable for everyone.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h3>Our Expertise</h3>
+                    <p>Deep specialization in n8n workflow automation, combined with extensive knowledge of no-code platforms and integrations.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>Our Team</h3>
+                    <p>Experienced automation engineers and business consultants dedicated to understanding your unique needs and delivering results.</p>
+                </div>
+            </div>
+            
+            <div class="about-cta animate-on-scroll delay-600">
+                <h3>Why Choose SpaceUp?</h3>
+                <p>We understand that every small business is unique. That's why we don't offer one-size-fits-all solutions. Instead, we take the time to understand your specific challenges and create custom automation workflows that fit your business like a glove.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="section-bg">
+            <div class="section-gradient"></div>
+            <div class="grid-pattern"></div>
+        </div>
+        
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-badge">
+                    <i data-lucide="zap" class="badge-icon"></i>
+                    <span>Our Services</span>
+                </div>
+                <h2 class="section-title">
+                    AI-Powered 
+                    <span class="gradient-text">Automation Solutions</span>
+                </h2>
+                <p class="section-description">
+                    Transform your business with our comprehensive automation services designed to streamline operations,
+                    enhance productivity, and drive growth through intelligent automation.
+                </p>
+            </div>
+            
+            <div class="services-grid animate-on-scroll delay-200">
+                <div class="service-card">
+                    <div class="service-bg"></div>
+                    <div class="service-gradient"></div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i data-lucide="workflow"></i>
+                        </div>
+                        <h3>Custom Workflow Automation</h3>
+                        <p>We develop custom automation workflows that align with your business processes, ensuring seamless and efficient operations.</p>
+                        <ul class="service-features">
+                            <li>Tailored workflow design</li>
+                            <li>Multi-step automation</li>
+                            <li>Process optimization</li>
+                            <li>24/7 automated operations</li>
+                        </ul>
+                        <button class="service-cta">
+                            Learn More
+                            <i data-lucide="arrow-right" class="btn-icon"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-bg"></div>
+                    <div class="service-gradient"></div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i data-lucide="layers"></i>
+                        </div>
+                        <h3>1000+ Apps Integration</h3>
+                        <p>Connect all your favorite tools and services into one powerful, streamlined system for maximum efficiency.</p>
+                        <ul class="service-features">
+                            <li>Seamless app connections</li>
+                            <li>Custom API integrations</li>
+                            <li>Data synchronization</li>
+                            <li>Unified platform</li>
+                        </ul>
+                        <button class="service-cta">
+                            Learn More
+                            <i data-lucide="arrow-right" class="btn-icon"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-bg"></div>
+                    <div class="service-gradient"></div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i data-lucide="trending-up"></i>
+                        </div>
+                        <h3>Business Process Optimization</h3>
+                        <p>We analyze and optimize your workflows to save time, reduce errors, and boost overall productivity.</p>
+                        <ul class="service-features">
+                            <li>Process analysis</li>
+                            <li>Bottleneck identification</li>
+                            <li>Efficiency improvements</li>
+                            <li>Performance metrics</li>
+                        </ul>
+                        <button class="service-cta">
+                            Learn More
+                            <i data-lucide="arrow-right" class="btn-icon"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-bg"></div>
+                    <div class="service-gradient"></div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i data-lucide="bot"></i>
+                        </div>
+                        <h3>AI-Powered Automations</h3>
+                        <p>Leverage AI to enhance your automations with intelligent decision-making and predictive analytics.</p>
+                        <ul class="service-features">
+                            <li>Smart chatbots</li>
+                            <li>Predictive analytics</li>
+                            <li>Natural language processing</li>
+                            <li>Automated decision making</li>
+                        </ul>
+                        <button class="service-cta">
+                            Learn More
+                            <i data-lucide="arrow-right" class="btn-icon"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-bg"></div>
+                    <div class="service-gradient"></div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i data-lucide="bar-chart-2"></i>
+                        </div>
+                        <h3>Data Management & Reporting</h3>
+                        <p>Automate data collection, analysis, and reporting with custom dashboards and real-time insights.</p>
+                        <ul class="service-features">
+                            <li>Automated data collection</li>
+                            <li>Custom dashboards</li>
+                            <li>Real-time analytics</li>
+                            <li>Scheduled reports</li>
+                        </ul>
+                        <button class="service-cta">
+                            Learn More
+                            <i data-lucide="arrow-right" class="btn-icon"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-bg"></div>
+                    <div class="service-gradient"></div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i data-lucide="message-square"></i>
+                        </div>
+                        <h3>Customer Support Automation</h3>
+                        <p>Enhance customer experience with automated support solutions and AI-powered assistance.</p>
+                        <ul class="service-features">
+                            <li>AI chatbots</li>
+                            <li>Ticket automation</li>
+                            <li>Multi-platform integration</li>
+                            <li>Scalable architecture</li>
+                        </ul>
+                        <button class="service-cta">
+                            Learn More
+                            <i data-lucide="arrow-right" class="btn-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="services-cta animate-on-scroll delay-600">
+                <a href="#contact" class="btn btn-primary btn-large">
+                    Get Started with AI Automation
+                    <i data-lucide="arrow-right" class="btn-icon"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process section">
+        <div class="section-bg">
+            <div class="section-gradient"></div>
+            <div class="grid-pattern"></div>
+        </div>
+        
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-badge">
+                    <i data-lucide="cog" class="badge-icon spinning"></i>
+                    <span>Our Methodology</span>
+                </div>
+                <h2 class="section-title">
+                    Our Proven 
+                    <span class="gradient-text">4-Step Process</span>
+                </h2>
+                <p class="section-description">
+                    From initial consultation to ongoing support, we guide you through every step 
+                    of your automation journey with expertise and care.
+                </p>
+            </div>
+            
+            <div class="process-container animate-on-scroll delay-200">
+                <div class="process-steps">
+                    <div class="process-step active" data-step="0">
+                        <div class="step-header">
+                            <div class="step-icon">
+                                <i data-lucide="message-square"></i>
+                                <div class="step-number">01</div>
+                            </div>
+                            <div class="step-content">
+                                <h3>Consultation</h3>
+                                <p>We start with a comprehensive assessment of your current processes and identify automation opportunities.</p>
+                            </div>
+                            <i data-lucide="arrow-right" class="step-arrow"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step" data-step="1">
+                        <div class="step-header">
+                            <div class="step-icon">
+                                <i data-lucide="pen-tool"></i>
+                                <div class="step-number">02</div>
+                            </div>
+                            <div class="step-content">
+                                <h3>Workflow Design</h3>
+                                <p>Our team creates custom automation workflows tailored to your specific business requirements.</p>
+                            </div>
+                            <i data-lucide="arrow-right" class="step-arrow"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step" data-step="2">
+                        <div class="step-header">
+                            <div class="step-icon">
+                                <i data-lucide="cog"></i>
+                                <div class="step-number">03</div>
+                            </div>
+                            <div class="step-content">
+                                <h3>Implementation</h3>
+                                <p>We build, test, and deploy your automation solutions with minimal disruption to your operations.</p>
+                            </div>
+                            <i data-lucide="arrow-right" class="step-arrow"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step" data-step="3">
+                        <div class="step-header">
+                            <div class="step-icon">
+                                <i data-lucide="headphones"></i>
+                                <div class="step-number">04</div>
+                            </div>
+                            <div class="step-content">
+                                <h3>Support</h3>
+                                <p>Ongoing optimization and support to ensure your automation continues to deliver maximum value.</p>
+                            </div>
+                            <i data-lucide="arrow-right" class="step-arrow"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-details">
+                    <div class="process-detail active" data-detail="0">
+                        <div class="detail-image">
+                            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" alt="Consultation">
+                            <div class="detail-overlay"></div>
+                            <div class="detail-gradient"></div>
+                        </div>
+                        <div class="detail-content">
+                            <h3>Consultation</h3>
+                            <p>We start with a comprehensive assessment of your current processes and identify automation opportunities.</p>
+                            <h4>What's Included:</h4>
+                            <ul>
+                                <li>Process mapping</li>
+                                <li>Pain point analysis</li>
+                                <li>ROI estimation</li>
+                                <li>Solution roadmap</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="process-detail" data-detail="1">
+                        <div class="detail-image">
+                            <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" alt="Workflow Design">
+                            <div class="detail-overlay"></div>
+                            <div class="detail-gradient"></div>
+                        </div>
+                        <div class="detail-content">
+                            <h3>Workflow Design</h3>
+                            <p>Our team creates custom automation workflows tailored to your specific business requirements.</p>
+                            <h4>What's Included:</h4>
+                            <ul>
+                                <li>Custom workflow design</li>
+                                <li>Integration planning</li>
+                                <li>User experience optimization</li>
+                                <li>Testing strategy</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="process-detail" data-detail="2">
+                        <div class="detail-image">
+                            <img src="https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg" alt="Implementation">
+                            <div class="detail-overlay"></div>
+                            <div class="detail-gradient"></div>
+                        </div>
+                        <div class="detail-content">
+                            <h3>Implementation</h3>
+                            <p>We build, test, and deploy your automation solutions with minimal disruption to your operations.</p>
+                            <h4>What's Included:</h4>
+                            <ul>
+                                <li>Development & configuration</li>
+                                <li>Thorough testing</li>
+                                <li>Gradual rollout</li>
+                                <li>Team training</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="process-detail" data-detail="3">
+                        <div class="detail-image">
+                            <img src="https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg" alt="Support">
+                            <div class="detail-overlay"></div>
+                            <div class="detail-gradient"></div>
+                        </div>
+                        <div class="detail-content">
+                            <h3>Support</h3>
+                            <p>Ongoing optimization and support to ensure your automation continues to deliver maximum value.</p>
+                            <h4>What's Included:</h4>
+                            <ul>
+                                <li>Performance monitoring</li>
+                                <li>Continuous optimization</li>
+                                <li>Technical support</li>
+                                <li>Feature updates</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="process-cta animate-on-scroll delay-400">
+                <h3>Ready to Get Started?</h3>
+                <p>Book a free consultation to discuss your automation needs and see how we can help transform your business.</p>
+                <a href="#contact" class="btn btn-primary btn-large">
+                    Schedule Free Consultation
+                    <i data-lucide="arrow-right" class="btn-icon"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <div class="section-bg">
+            <div class="section-gradient"></div>
+        </div>
+        
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-badge">
+                    <i data-lucide="zap" class="badge-icon"></i>
+                    <span>Success Stories</span>
+                </div>
+                <h2 class="section-title">
+                    Our 
+                    <span class="gradient-text">Portfolio</span>
+                </h2>
+                <p class="section-description">
+                    Discover how we've transformed businesses through intelligent automation solutions.
+                </p>
+            </div>
+            
+            <div class="portfolio-container animate-on-scroll delay-200">
+                <div class="portfolio-nav">
+                    <button class="portfolio-nav-item active" data-project="0">
+                        <div class="nav-category">E-commerce</div>
+                        <h3>E-commerce Order Automation</h3>
+                        <p>TechGear Store</p>
+                        <i data-lucide="arrow-right" class="nav-arrow"></i>
+                    </button>
+                    <button class="portfolio-nav-item" data-project="1">
+                        <div class="nav-category">CRM</div>
+                        <h3>CRM Lead Management System</h3>
+                        <p>GrowthCorp Marketing</p>
+                        <i data-lucide="arrow-right" class="nav-arrow"></i>
+                    </button>
+                    <button class="portfolio-nav-item" data-project="2">
+                        <div class="nav-category">Finance</div>
+                        <h3>Financial Reporting Dashboard</h3>
+                        <p>FinanceFlow Solutions</p>
+                        <i data-lucide="arrow-right" class="nav-arrow"></i>
+                    </button>
+                </div>
+                
+                <div class="portfolio-details">
+                    <div class="portfolio-detail active" data-detail="0">
+                        <div class="detail-image">
+                            <img src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg" alt="E-commerce Order Automation">
+                            <div class="detail-overlay"></div>
+                            <div class="tech-tags">
+                                <span class="tech-tag">n8n</span>
+                                <span class="tech-tag">Shopify</span>
+                                <span class="tech-tag">Stripe</span>
+                                <span class="tech-tag">Slack</span>
+                            </div>
+                        </div>
+                        <div class="detail-content">
+                            <h3>E-commerce Order Automation</h3>
+                            <p class="detail-client">TechGear Store</p>
+                            <p class="detail-description">Automated entire order processing workflow from payment to fulfillment, reducing processing time by 85%.</p>
+                            
+                            <div class="metrics-grid">
+                                <div class="metric-item">
+                                    <i data-lucide="clock" class="metric-icon"></i>
+                                    <div class="metric-value">30 hours/week</div>
+                                    <div class="metric-label">Time Saved</div>
+                                </div>
+                                <div class="metric-item">
+                                    <i data-lucide="trending-up" class="metric-icon"></i>
+                                    <div class="metric-value">400%</div>
+                                    <div class="metric-label">ROI</div>
+                                </div>
+                                <div class="metric-item">
+                                    <i data-lucide="zap" class="metric-icon"></i>
+                                    <div class="metric-value">99.9%</div>
+                                    <div class="metric-label">Accuracy</div>
+                                </div>
+                            </div>
+                            
+                            <div class="results-section">
+                                <h4>Key Results:</h4>
+                                <ul>
+                                    <li>85% faster processing</li>
+                                    <li>99.9% accuracy</li>
+                                    <li>$50K annual savings</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-detail" data-detail="1">
+                        <div class="detail-image">
+                            <img src="https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg" alt="CRM Lead Management System">
+                            <div class="detail-overlay"></div>
+                            <div class="tech-tags">
+                                <span class="tech-tag">n8n</span>
+                                <span class="tech-tag">HubSpot</span>
+                                <span class="tech-tag">Mailchimp</span>
+                                <span class="tech-tag">Google Sheets</span>
+                            </div>
+                        </div>
+                        <div class="detail-content">
+                            <h3>CRM Lead Management System</h3>
+                            <p class="detail-client">GrowthCorp Marketing</p>
+                            <p class="detail-description">Built comprehensive lead scoring and nurturing system with automated follow-ups and reporting.</p>
+                            
+                            <div class="metrics-grid">
+                                <div class="metric-item">
+                                    <i data-lucide="clock" class="metric-icon"></i>
+                                    <div class="metric-value">25 hours/week</div>
+                                    <div class="metric-label">Time Saved</div>
+                                </div>
+                                <div class="metric-item">
+                                    <i data-lucide="trending-up" class="metric-icon"></i>
+                                    <div class="metric-value">350%</div>
+                                    <div class="metric-label">ROI</div>
+                                </div>
+                                <div class="metric-item">
+                                    <i data-lucide="zap" class="metric-icon"></i>
+                                    <div class="metric-value">98.5%</div>
+                                    <div class="metric-label">Accuracy</div>
+                                </div>
+                            </div>
+                            
+                            <div class="results-section">
+                                <h4>Key Results:</h4>
+                                <ul>
+                                    <li>300% lead conversion</li>
+                                    <li>50% faster response</li>
+                                    <li>Automated reporting</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-detail" data-detail="2">
+                        <div class="detail-image">
+                            <img src="https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg" alt="Financial Reporting Dashboard">
+                            <div class="detail-overlay"></div>
+                            <div class="tech-tags">
+                                <span class="tech-tag">n8n</span>
+                                <span class="tech-tag">QuickBooks</span>
+                                <span class="tech-tag">Google Sheets</span>
+                                <span class="tech-tag">Slack</span>
+                            </div>
+                        </div>
+                        <div class="detail-content">
+                            <h3>Financial Reporting Dashboard</h3>
+                            <p class="detail-client">FinanceFlow Solutions</p>
+                            <p class="detail-description">Automated financial data collection and reporting across multiple platforms with real-time insights.</p>
+                            
+                            <div class="metrics-grid">
+                                <div class="metric-item">
+                                    <i data-lucide="clock" class="metric-icon"></i>
+                                    <div class="metric-value">40 hours/week</div>
+                                    <div class="metric-label">Time Saved</div>
+                                </div>
+                                <div class="metric-item">
+                                    <i data-lucide="trending-up" class="metric-icon"></i>
+                                    <div class="metric-value">500%</div>
+                                    <div class="metric-label">ROI</div>
+                                </div>
+                                <div class="metric-item">
+                                    <i data-lucide="zap" class="metric-icon"></i>
+                                    <div class="metric-value">100%</div>
+                                    <div class="metric-label">Accuracy</div>
+                                </div>
+                            </div>
+                            
+                            <div class="results-section">
+                                <h4>Key Results:</h4>
+                                <ul>
+                                    <li>Real-time reporting</li>
+                                    <li>90% time reduction</li>
+                                    <li>Error elimination</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-cta animate-on-scroll delay-400">
+                <a href="#contact" class="btn btn-primary btn-large">
+                    Start Your Success Story
+                    <i data-lucide="arrow-right" class="btn-icon"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section">
+        <div class="section-bg">
+            <div class="section-gradient"></div>
+            <div class="radial-pattern"></div>
+        </div>
+        
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-badge">
+                    <i data-lucide="star" class="badge-icon"></i>
+                    <span>Transparent Pricing</span>
+                </div>
+                <h2 class="section-title">
+                    Choose Your 
+                    <span class="gradient-text">Automation Plan</span>
+                </h2>
+                <p class="section-description">
+                    Flexible pricing options designed to grow with your business. All plans include setup and training.
+                </p>
+                
+                <div class="billing-toggle">
+                    <button class="toggle-btn active" data-billing="monthly">Monthly</button>
+                    <button class="toggle-btn" data-billing="yearly">
+                        Yearly
+                        <span class="save-badge">Save 17%</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="pricing-grid animate-on-scroll delay-200">
+                <div class="pricing-card">
+                    <div class="card-bg"></div>
+                    <div class="card-content">
+                        <div class="plan-icon">
+                            <i data-lucide="zap"></i>
+                        </div>
+                        <h3 class="plan-name">Starter</h3>
+                        <p class="plan-description">Perfect for small businesses getting started with automation</p>
+                        <div class="plan-price">
+                            <span class="price-amount" data-monthly="69" data-yearly="59">$69</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <div class="yearly-note">Billed annually ($708)</div>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check"></i>Up to 5 automated workflows</li>
+                            <li><i data-lucide="check"></i>Basic integrations (Gmail, Sheets, etc.)</li>
+                            <li><i data-lucide="check"></i>Email support</li>
+                            <li><i data-lucide="check"></i>Monthly optimization review</li>
+                            <li><i data-lucide="check"></i>Basic analytics dashboard</li>
+                            <li><i data-lucide="check"></i>1 hour of monthly consultation</li>
+                        </ul>
+                        <a href="#contact" class="plan-cta">
+                            Get Started
+                            <i data-lucide="arrow-right" class="btn-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="card-bg"></div>
+                    <div class="card-content">
+                        <div class="plan-icon">
+                            <i data-lucide="star"></i>
+                        </div>
+                        <h3 class="plan-name">Professional</h3>
+                        <p class="plan-description">Ideal for growing businesses with complex automation needs</p>
+                        <div class="plan-price">
+                            <span class="price-amount" data-monthly="129" data-yearly="110">$129</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <div class="yearly-note">Billed annually ($1320)</div>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check"></i>Up to 15 automated workflows</li>
+                            <li><i data-lucide="check"></i>Advanced integrations (CRM, eCommerce, etc.)</li>
+                            <li><i data-lucide="check"></i>Priority support</li>
+                            <li><i data-lucide="check"></i>Bi-weekly optimization reviews</li>
+                            <li><i data-lucide="check"></i>Advanced analytics & reporting</li>
+                            <li><i data-lucide="check"></i>3 hours of monthly consultation</li>
+                            <li><i data-lucide="check"></i>Custom API integrations</li>
+                            <li><i data-lucide="check"></i>Webhook automation</li>
+                        </ul>
+                        <a href="#contact" class="plan-cta">
+                            Get Started
+                            <i data-lucide="arrow-right" class="btn-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="card-bg"></div>
+                    <div class="card-content">
+                        <div class="plan-icon">
+                            <i data-lucide="crown"></i>
+                        </div>
+                        <h3 class="plan-name">Enterprise</h3>
+                        <p class="plan-description">For established businesses requiring comprehensive automation</p>
+                        <div class="plan-price">
+                            <span class="price-amount" data-monthly="500" data-yearly="427">$500</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <div class="yearly-note">Billed annually ($5124)</div>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check"></i>Unlimited automated workflows</li>
+                            <li><i data-lucide="check"></i>All integrations included</li>
+                            <li><i data-lucide="check"></i>24/7 dedicated support</li>
+                            <li><i data-lucide="check"></i>Weekly optimization reviews</li>
+                            <li><i data-lucide="check"></i>Custom dashboard & reporting</li>
+                            <li><i data-lucide="check"></i>Unlimited consultation hours</li>
+                            <li><i data-lucide="check"></i>Custom development</li>
+                            <li><i data-lucide="check"></i>Multi-team collaboration</li>
+                            <li><i data-lucide="check"></i>SLA guarantee</li>
+                            <li><i data-lucide="check"></i>Dedicated account manager</li>
+                        </ul>
+                        <a href="#contact" class="plan-cta">
+                            Get Started
+                            <i data-lucide="arrow-right" class="btn-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pricing-cta animate-on-scroll delay-600">
+                <h3>Need a Custom Solution?</h3>
+                <p>Every business is unique. If our standard plans don't fit your needs, let's discuss a custom automation solution tailored specifically for you.</p>
+                <a href="#contact" class="btn btn-primary btn-large">
+                    Contact Sales
+                    <i data-lucide="arrow-right" class="btn-icon"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+        
+        <div class="container">
+        </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="section-bg">
+            <div class="section-gradient"></div>
+            <div class="floating-orb orb-1"></div>
+            <div class="floating-orb orb-2"></div>
+        </div>
+        
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-badge">
+                    <i data-lucide="send" class="badge-icon"></i>
+                    <span>Let's Get Started</span>
+                </div>
+                <h2 class="section-title">
+                    Ready to Transform 
+                    <span class="gradient-text">Your Business?</span>
+                </h2>
+                <p class="section-description">
+                    Get a free consultation to discuss your automation needs and discover how much time 
+                    and money you could save with SpaceUp solutions.
+                </p>
+            </div>
+            
+            <div class="contact-container animate-on-scroll delay-200">
+                <div class="contact-form-section">
+                    <div class="form-container">
+                        <h3>Get Your Free Consultation</h3>
+                        
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="businessType">Business Type *</label>
+                                <select id="businessType" name="businessType" required>
+                                    <option value="">Select your business type</option>
+                                    <option value="retail">Retail/E-commerce</option>
+                                    <option value="restaurant">Restaurant/Food Service</option>
+                                    <option value="healthcare">Healthcare/Medical</option>
+                                    <option value="professional">Professional Services</option>
+                                    <option value="manufacturing">Manufacturing</option>
+                                    <option value="real-estate">Real Estate</option>
+                                    <option value="education">Education</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="automationNeeds">Describe Your Automation Needs *</label>
+                                <textarea id="automationNeeds" name="automationNeeds" required rows="4" placeholder="Tell us about the repetitive tasks you'd like to automate, current pain points, or specific processes you want to streamline..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-large form-submit">
+                                <span class="btn-text">Request Consultation</span>
+                                <span class="btn-loading">
+                                    <div class="spinner"></div>
+                                    Sending...
+                                </span>
+                                <i data-lucide="send" class="btn-icon"></i>
+                            </button>
+                        </form>
+                        
+                        <div id="formSuccess" class="form-success">
+                            <i data-lucide="check-circle" class="success-icon"></i>
+                            <h4>Thank you for your request!</h4>
+                            <p>We'll be in touch within 24 hours to schedule your free consultation.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-info-section">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i data-lucide="phone"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Phone</h4>
+                                    <p>+254 711 512 235</p>
+                                    <span>Mon-Fri 9AM-6PM EAT</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Email</h4>
+                                    <p>info@spaceup.co.ke</p>
+                                    <span>We'll respond within 2 hours</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i data-lucide="map-pin"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Location</h4>
+                                    <p>Eldoret, Kenya</p>
+                                    <span>Serving businesses in Kenya</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="expectations-card">
+                        <h4>What to Expect</h4>
+                        <ul class="expectations-list">
+                            <li>
+                                <div class="expectation-icon">
+                                    <i data-lucide="message-square"></i>
+                                </div>
+                                <div class="expectation-content">
+                                    <h5>Free 30-minute consultation call</h5>
+                                    <p>We'll discuss your current processes and pain points</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="expectation-icon">
+                                    <i data-lucide="calendar"></i>
+                                </div>
+                                <div class="expectation-content">
+                                    <h5>Process analysis and automation opportunities</h5>
+                                    <p>Identify the best automation opportunities for your business</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="expectation-icon">
+                                    <i data-lucide="zap"></i>
+                                </div>
+                                <div class="expectation-content">
+                                    <h5>Custom solution proposal with ROI estimates</h5>
+                                    <p>Get a detailed plan with expected returns and timeline</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="expectation-icon">
+                                    <i data-lucide="check-circle"></i>
+                                </div>
+                                <div class="expectation-content">
+                                    <h5>No obligation, no pressure approach</h5>
+                                    <p>Make an informed decision at your own pace</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">© 2025 SpaceUp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Social Media -->
+    <div class="floating-social">
+        <button class="floating-social-toggle">
+            <i data-lucide="share-2"></i>
+        </button>
+        <div class="floating-social-dropdown">
+            <a href="https://web.whatsapp.com/send?phone=254711512235&text=Hi%20there!%20%F0%9F%91%8B%20Thanks%20for%20reaching%20out%20to%20SpaceUp.%20This%20is%20an%20automated%20response%20to%20let%20you%20know%20we've%20received%20your%20message.%0A%0AOur%20team%20typically%20responds%20within%201%20business%20day.%20In%20the%20meantime%2C%20feel%20free%20to%20browse%20our%20website%20https%3A%2F%2Fspaceup.co.ke%20for%20more%20information%20about%20our%20services.%0A%0AFor%20faster%20assistance%2C%20you%20can%20also%3A%0A%E2%80%A2%20Email%20us%20at%20info%40spaceup.co.ke%0A%E2%80%A2%20Call%20us%20at%20%2B254%20711%20512%20235%0A%0AWe%20appreciate%20your%20interest%20in%20SpaceUp%20and%20look%20forward%20to%20connecting%20with%20you%20soon!%0A%0ABest%20regards%2C%0AThe%20SpaceUp%20Team" target="_blank" rel="noopener noreferrer" class="social-icon whatsapp" title="WhatsApp">
+                <i data-lucide="message-circle"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/abishaimwanja/" target="_blank" rel="noopener noreferrer" class="social-icon linkedin" title="LinkedIn">
+                <i data-lucide="linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100084217397259&message=Hi%20there!%20%F0%9F%91%8B%20Thanks%20for%20reaching%20out%20to%20SpaceUp.%20This%20is%20an%20automated%20response%20to%20let%20you%20know%20we've%20received%20your%20message.%0A%0AOur%20team%20typically%20responds%20within%201%20business%20day.%20In%20the%20meantime%2C%20feel%20free%20to%20browse%20our%20website%20https%3A%2F%2Fspaceup.co.ke%20for%20more%20information%20about%20our%20services.%0A%0AFor%20faster%20assistance%2C%20you%20can%20also%3A%0A%E2%80%A2%20Email%20us%20at%20info%40spaceup.co.ke%0A%E2%80%A2%20Call%20us%20at%20%2B254%20711%20512%20235%0A%0AWe%20appreciate%20your%20interest%20in%20SpaceUp%20and%20look%20forward%20to%20connecting%20with%20you%20soon!%0A%0ABest%20regards%2C%0AThe%20SpaceUp%20Team" target="_blank" rel="noopener noreferrer" class="social-icon facebook" title="Facebook">
+                <i data-lucide="facebook"></i>
+            </a>
+            <a href="https://x.com/messages/compose?recipient_id=AbishaiMwanja&text=Hi%20there!%20%F0%9F%91%8B%20Thanks%20for%20reaching%20out%20to%20SpaceUp.%20This%20is%20an%20automated%20response%20to%20let%20you%20know%20we've%20received%20your%20message.%0A%0AOur%20team%20typically%20responds%20within%201%20business%20day.%20In%20the%20meantime%2C%20feel%20free%20to%20browse%20our%20website%20https%3A%2F%2Fspaceup.co.ke%20for%20more%20information%20about%20our%20services.%0A%0AFor%20faster%20assistance%2C%20you%20can%20also%3A%0A%E2%80%A2%20Email%20us%20at%20info%40spaceup.co.ke%0A%E2%80%A2%20Call%20us%20at%20%2B254%20711%20512%20235%0A%0AWe%20appreciate%20your%20interest%20in%20SpaceUp%20and%20look%20forward%20to%20connecting%20with%20you%20soon!%0A%0ABest%20regards%2C%0AThe%20SpaceUp%20Team" target="_blank" rel="noopener noreferrer" class="social-icon x" title="X (Twitter)">
+                <i data-lucide="twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/spaceup.co.ke/" target="_blank" rel="noopener noreferrer" class="social-icon instagram" title="Instagram">
+                <i data-lucide="instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@spaceup.co.ke?lang=en-GB" target="_blank" rel="noopener noreferrer" class="social-icon tiktok" title="TikTok">
+                <i data-lucide="music"></i>
+            </a>
+            <a href="https://www.youtube.com/@abishaimwanja" target="_blank" rel="noopener noreferrer" class="social-icon youtube" title="YouTube">
+                <i data-lucide="youtube"></i>
+            </a>
+        </div>
+    </div>
+
+    <style>
+        .floating-social {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1000;
+        }
+        
+        .floating-social-toggle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        
+        .floating-social-toggle:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+        }
+        
+        .floating-social-dropdown {
+            position: absolute;
+            bottom: 60px;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+        }
+        
+        .floating-social:hover .floating-social-dropdown {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        .floating-social .social-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: white;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        /* WhatsApp */
+        .floating-social .whatsapp {
+            background: #25D366;
+        }
+        
+        /* LinkedIn */
+        .floating-social .linkedin {
+            background: #0077B5;
+        }
+        
+        /* Facebook */
+        .floating-social .facebook {
+            background: #1877F2;
+        }
+        
+        /* X (Twitter) */
+        .floating-social .x {
+            background: #000000;
+        }
+        
+        /* Instagram */
+        .floating-social .instagram {
+            background: #E4405F;
+        }
+        
+        /* TikTok */
+        .floating-social .tiktok {
+            background: #000000;
+        }
+        
+        /* YouTube */
+        .floating-social .youtube {
+            background: #FF0000;
+        }
+        
+        .floating-social .social-icon:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            opacity: 0.9;
+        }
+        
+        .floating-social .social-icon i {
+            font-size: 18px;
+            color: white;
+        }
+    </style>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+        
+        // Toggle social dropdown on click (for touch devices)
+        const toggleBtn = document.querySelector('.floating-social-toggle');
+        const socialDropdown = document.querySelector('.floating-social-dropdown');
+        
+        toggleBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const isVisible = socialDropdown.style.opacity === '1';
+            socialDropdown.style.opacity = isVisible ? '0' : '1';
+            socialDropdown.style.visibility = isVisible ? 'hidden' : 'visible';
+            socialDropdown.style.transform = isVisible ? 'translateY(20px)' : 'translateY(0)';
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.floating-social')) {
+                socialDropdown.style.opacity = '0';
+                socialDropdown.style.visibility = 'hidden';
+                socialDropdown.style.transform = 'translateY(20px)';
+            }
+        });
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
